@@ -1,0 +1,150 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-family: 'Noto Serif', serif;
+}
+
+.header{
+	color: #020202;
+	background-image: url("../img/bg2.jpg");
+	background-size: cover;
+	padding: 170px 0;
+}
+
+	.header__content{
+		padding-left: 300px;
+	}
+
+	 .header__subtitle{
+		color: white;
+		font-size: 30px;
+	} 
+
+	.container__subtitle{
+		color: #020202;
+		font-size: 20px;
+		text-align: center;
+		font-family: 'Oswald', sans-serif;
+	} 
+
+	.footer__subtitle{
+		color: #020202;
+		font-size: 40px;
+		text-align: center;
+		font-family: 'Noto Serif', serif;
+	} 
+
+	.footer__text{
+		text-align: center;
+		font-size: 30px;
+	}
+
+.stores{
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+	.stores__item{
+		margin-right: 15px;
+	}
+	
+	.stores__link{
+		width: 60px;
+		height: 60px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50%;
+		background-color: rgba(0,0,0,0.3);
+		text-decoration: none;
+		color: rgba(255, 255, 255, 0.2);
+		font-size: 25px;
+		transition:  border-radius 0.6s;
+	}
+
+		.stores__link:hover{
+			background-color: #fff;
+			color: #D865BC;
+					
+		}
+
+
+.block{
+	padding: 5px 50px;
+	background: #D198DA;
+}
+
+	.block--secondary{
+		background-color: #c8f0ef;
+	}
+
+		 .block__title{
+		color: #020202;
+		font-size: 30px;
+		font-weight: 700;
+	} 
+
+.container{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cols{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+}
+
+	.cols--third{
+		width: 370px;
+	}
+
+	.cols--half{
+		width: 570px;
+	}
+
+	.cols--rev{
+		width: 370px;
+	}
+
+
+.features{
+	text-align: center;
+	list-style: none;
+	padding: 100px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+	.features__item{
+		width: 200px;
+	}
+
+	.features__item a{
+		text-decoration: none;
+	}
+
+	.features__icon{
+		width: 70px;
+		height: 70px;
+		display: inline-flex;
+		border-radius: 50%;
+		background-color: #020202;
+		color: #fff;
+		font-size: 50px;
+		justify-content: center;
+		align-items: center;
+	}	
+
+	.features__icon:hover{
+		background: #DF4FBB;
+		color: #020202;
+	}
